@@ -1,0 +1,61 @@
+@font-face {
+  font-family: VT323;
+  src: url("fonts/VT323-Regular.ttf");
+}
+
+@font-face {
+  font-family: Editorial-New;
+  src: url("fonts/EditorialNew-Regular.otf");
+}
+* {
+  color: white;
+
+}
+body {
+  background-color: black;
+}
+
+.website-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.title-container {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Editorial-New;
+  max-width: 320px;
+
+
+}
+
+#glass-box {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 40px;
+  max-width: 240px;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 32px;
+}
+
+.authorship {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: VT323;
+}
