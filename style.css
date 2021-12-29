@@ -122,6 +122,6 @@ h2 {
   object-fit: scale-down;
   margin-top: 20px;
   border: 1px solid white;
-  padding: 8px;
+  padding: 8px 0px 8px 0px;
 
 }
