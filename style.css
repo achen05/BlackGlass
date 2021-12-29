@@ -107,6 +107,7 @@ h2 {
   line-height: 25px;
   letter-spacing: .02em;
   hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .caption {
