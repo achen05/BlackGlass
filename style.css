@@ -105,7 +105,7 @@ h2 {
 .copy {
   font-size: 17px;
   line-height: 25px;
-  letter-spacing: .02em;
+  letter-spacing: .015em;
   hyphens: auto;
   -webkit-hyphens: auto;
 }
