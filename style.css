@@ -111,7 +111,17 @@ h2 {
 }
 
 .caption {
-  margin-top: 20px;
+  margin-top: 8px;
   font-family: VT323;
   color: grey;
+}
+
+.image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: scale-down;
+  margin-top: 20px;
+  border: 1px solid white;
+  padding: 8px;
+
 }
