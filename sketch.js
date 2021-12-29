@@ -16,6 +16,6 @@ function draw() {
   rotateY(frameCount * 0.005);
   //pass image as texture
   texture(img);
-  box(width / 2);
+  box(width / 2.5);
   strokeWeight(0);
 }
