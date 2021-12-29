@@ -25,7 +25,7 @@ body {
   align-items: center;
 
   margin-top: 64px;
-  margin: 36px 16px 16px 16px;
+  margin: 36px 28px 16px 28px;
 
 }
 
@@ -37,18 +37,19 @@ body {
   justify-content: space-around;
   align-items: center;
   font-family: Editorial-New;
-  max-width: 400px;
-  border: 1px solid white;
-  padding: 16px 0px 16px 0px;
+  max-width: 500px;
+  border: 0px solid white;
+  padding: 16px;
 
 
 }
 
 #glass-box {
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
+  border: 1px solid white;
 }
 
 h1 {
@@ -60,7 +61,7 @@ h1 {
 }
 
 .authorship {
-  width: 86%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
@@ -88,14 +89,12 @@ h1 {
 }
 
 .copy-container {
-  margin-top: 20px;
   width: 100%;
   max-width: 500px;
   height: auto;
 }
 
 .copy {
-  margin: 12px;
   font-size: 17px;
   line-height: 25px;
   letter-spacing: .02em;
