@@ -99,4 +99,5 @@ h1 {
   font-size: 17px;
   line-height: 25px;
   letter-spacing: .02em;
+  hyphens: auto;
 }
