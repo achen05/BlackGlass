@@ -39,6 +39,7 @@ body {
   font-family: Editorial-New;
   max-width: 400px;
   border: 1px solid white;
+  padding: 16px 0px 16px 0px;
 
 
 }
@@ -87,13 +88,15 @@ h1 {
 }
 
 .copy-container {
+  margin-top: 20px;
   width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
 .copy {
-  margin: 16px;
-  font-size: 15px;
-  line-height: 22px;
+  margin: 12px;
+  font-size: 17px;
+  line-height: 25px;
   letter-spacing: .02em;
 }
